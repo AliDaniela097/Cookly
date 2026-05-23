@@ -6,7 +6,7 @@ import { Favoritos } from "./pages/Favoritos";
 import { Buscar } from "./pages/Buscar";
 import { Salud } from "./components/FeaturedCarousel";
 import { Admin } from "./pages/Admin";
- 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -20,7 +20,6 @@ export const router = createBrowserRouter([
       { path: "salud", Component: Salud },
     ],
   },
-  // Ruta admin separada — no usa Layout de Cookly
   {
     path: "/admin",
     Component: Admin,
